@@ -45,3 +45,9 @@ coverage/
 
 # Tooling state (local, no se publica)
 .atl/
+
+# Notas y material que no van al repo público
+DECISIONES.md
+taller_portafolio_react.pdf
+scripts/
+.gitignore

@@ -1,0 +1,47 @@
+.ninja {
+  position: fixed;
+  right: clamp(0.5rem, 3vw, 2rem);
+  z-index: 40;
+  color: var(--color-text);
+  pointer-events: none;
+  transition: top 0.15s linear;
+  animation: bob 1.6s ease-in-out infinite;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.35));
+}
+
+.tails {
+  transform-origin: 14px 22px;
+  animation: flutter 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes flutter {
+  from {
+    transform: rotate(-6deg) scaleX(1);
+  }
+  to {
+    transform: rotate(6deg) scaleX(0.9);
+  }
+}
+
+@media (max-width: 600px) {
+  .ninja {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ninja,
+  .tails {
+    animation: none;
+  }
+}

@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 560px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.control {
+  padding: 0.7rem 0.85rem;
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  font-family: var(--font-body);
+  font-size: 0.98rem;
+  resize: vertical;
+}
+
+.control:focus {
+  border-color: var(--color-accent);
+}
+
+.control[aria-invalid='true'] {
+  border-color: var(--color-accent);
+}
+
+.error {
+  font-size: 0.82rem;
+  color: var(--color-accent);
+}
+
+.success {
+  padding: 0.8rem 1rem;
+  border-radius: var(--radius);
+  background: var(--color-accent-soft);
+  border: 1px solid rgba(230, 57, 70, 0.4);
+  color: var(--color-accent);
+}

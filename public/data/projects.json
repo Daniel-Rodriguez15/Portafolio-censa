@@ -1,0 +1,58 @@
+[
+  {
+    "id": "anai",
+    "title": "Anai",
+    "category": "Profesional",
+    "level": "Profesional",
+    "description": "Plataforma profesional en la que trabajo actualmente. Backend con NestJS y frontend con Next.js.",
+    "technologies": ["NestJS", "Next.js", "TypeScript", "PostgreSQL"],
+    "repositoryUrl": "",
+    "demoUrl": "https://app.anaiapp.ai/es/",
+    "demoLabel": "Ver Anai",
+    "featured": true
+  },
+  {
+    "id": "prueba-tecnica-omc",
+    "title": "Lead Management API",
+    "category": "Backend",
+    "level": "Prueba técnica",
+    "description": "REST API para gestión de leads con análisis IA. Autenticación JWT, soft-delete, paginación y arquitectura limpia (SOLID).",
+    "technologies": ["FastAPI", "PostgreSQL", "SQLAlchemy", "Docker", "JWT"],
+    "repositoryUrl": "https://github.com/Daniel-Rodriguez15/Prueba-tecnica-OMC",
+    "demoUrl": "",
+    "featured": false
+  },
+  {
+    "id": "biblioteca-django",
+    "title": "Biblioteca Django",
+    "category": "Backend",
+    "level": "Académico",
+    "description": "Sistema de gestión de biblioteca: catálogo público, préstamos, multas automáticas y control de roles. Incluye 25 tests.",
+    "technologies": ["Django", "Python", "SQLite"],
+    "repositoryUrl": "https://github.com/Daniel-Rodriguez15/Biblipteca-django",
+    "demoUrl": "",
+    "featured": false
+  },
+  {
+    "id": "agendapp",
+    "title": "AgendApp",
+    "category": "Mobile",
+    "level": "Personal",
+    "description": "App móvil de gestión de agenda y tareas. Offline-first con SQLite y arquitectura limpia por capas.",
+    "technologies": ["React Native", "TypeScript", "SQLite"],
+    "repositoryUrl": "https://github.com/Daniel-Rodriguez15/AgendApp",
+    "demoUrl": "",
+    "featured": false
+  },
+  {
+    "id": "poke-dashboard",
+    "title": "Poke Dashboard",
+    "category": "Frontend",
+    "level": "Prueba técnica",
+    "description": "Dashboard para armar equipos Pokémon con análisis estratégico. Consume la PokéAPI, estado global con Zustand y diseño responsive.",
+    "technologies": ["Next.js", "React", "Zustand", "Tailwind"],
+    "repositoryUrl": "https://github.com/Daniel-Rodriguez15/Poke-Dashboard",
+    "demoUrl": "https://poke-dashboard-pi.vercel.app/",
+    "featured": false
+  }
+]
